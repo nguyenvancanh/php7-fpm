@@ -23,7 +23,6 @@ RUN docker-php-ext-install gd \
     && docker-php-ext-install xml \
     && docker-php-ext-install zip \
     && docker-php-ext-install curl \
-    && docker-php-ext-install mysql \
     && docker-php-ext-install mysqli \
     && docker-php-ext-install session \
     && docker-php-ext-install pdo_sqlite \
